@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Fale Conosco   </title>
+	<link href="css/lider.css" rel="stylesheet">
+	
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+	
+	
+	
+	
+		
+	
+	
+	</head>
+	<body>
+	
+	
+	<div class="menu">
+    <a  href="home.html" class="botao red btn-red" >Home</a>
+	<a href="Bruno.html"class="botao orange btn-orange" >Bruno</a>
+	<a href="Kelly.html"class="botao lightblue btn-lightblue">Kelly</a>
+	<a href="TabeladeCuriosidades.html"class="botao green btn-green">Tabela de Curiosidades</a>
+	<a href="SitesFavoritos.html"class="botao darkblue btn-darkblue"> Sites Favoritos</a>
+	<a href="faleconosco.html" class="botao gray btn-gray"> Fale Conosco </a>
+	
+	
+	</div>
+	
+	<div class="margem2">
+	</div>
+	
+	<br>
+	<div class="formulario">
+	<h2> Contato </h2>
+
+<form id="formularioContato" onsubmit="validar(event)" method="post" action="http://hub.fatecrl.edu.br/sobrino/recebe.php">
+
+<p>
+	<label>
+		Nome: <br><input type="text" name="nome" id="nome" minlength="5" class="form-control"id="nome"
+		size="50" maxlength="50">
+	</label>
+	<div id="DIVMSGNome">Campo nome é obrigatório!</div>
+</p>
+
+<p>
+	<label>
+		Email:<br><input type="text" name="email" id="email" class="form-control"
+		size="50" maxlength="50">
+	</label>
+	
+	<div id="DIVMSGEmail" class="alert alert-danger" role="alert">
+	 Campo email é obrigatório!
+	</div>
+
+</p>
+
+<p>
+	<label>	
+		Comentários :<br><textarea  name="comentarios" id="comentarios" rows="5"  cols="45"
+		maxlength="3000"> </textarea>
+	
+	</label>	
+
+</p> <p>
+	<input type="submit" value="Enviar formulario">
+	
+	<button id="btn" type="button">Enviar formulario 2</button>
+
+</p>
+
+
+	
+</form>	
+	
+	</div>
+	
+	<h3>  </h3>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="script/scripts.js"></script>
+ 
+	</body>
+	
+	</html>
